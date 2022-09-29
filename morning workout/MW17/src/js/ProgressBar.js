@@ -1,7 +1,7 @@
 export class ProgressBar {
-  constructor() {
-    this.value = 0;
-    this.gradient = 1;
+  constructor(value, gradient) {
+    this.value =value ?? 0;
+    this.gradient = gradient ?? 1;
     //@TODO no.4 make it possible to create progress bar with any default value and gradient. these values should be passed to constructor
     //@TODO no.5 make it possible to create progress bar with any maximum value. once using maximum value, make sure the width of knob element is calculated correctly
 

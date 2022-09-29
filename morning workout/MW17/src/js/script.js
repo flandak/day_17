@@ -1,10 +1,18 @@
 import {ProgressBar } from './ProgressBar';
 
-const progressBar = new ProgressBar()
-progressBar.gradient = 5;
-progressBar.value = 0;
+const progressBar = new ProgressBar(0,5)
+const progressBar2 = new ProgressBar(0,5)
+const progressBar3 = new ProgressBar(2,5)
+const progressBar4 = new ProgressBar(0,2)
+const progressBar5 = new ProgressBar(1,1)
 
-document.body.appendChild(progressBar.element)
+
+
+document.body.appendChild(progressBar2.element)
+document.body.appendChild(progressBar3.element)
+document.body.appendChild(progressBar4.element)
+document.body.appendChild(progressBar5.element)
+
 document.body.appendChild(progressBar.refreshElement())
 
 

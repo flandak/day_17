@@ -24,12 +24,12 @@ body {
 }
 
 .btn-plus {
-  background-color: gray;
+  background-color: rgb(219, 172, 17);
   background-image: url('../img/plus.png');
 }
 
 .btn-minus {
-  background-color: gray;
+  background-color: rgb(47, 226, 243);
   background-image: url('../img/minus.png');
 }
 
@@ -43,10 +43,10 @@ body {
   flex: 1;
   height: 64px;
   margin: 0 8px;
-  background-color: rgb(212, 212, 212);
+  background-color: rgb(129, 15, 125);
 }
 
 .knob {
   height: 64px;
-  background-color: rgb(255, 82, 0);
+  background-color: rgb(137, 234, 253);
 }
